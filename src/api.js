@@ -1,9 +1,9 @@
-import axios from 'axios';
+import axios from 'axios'
 
 const instance = axios.create({
-  baseURL: `http://localhost:4000/`,
-});
+  baseURL: `https://scorecard-backend.onrender.com`, // http://localhost:4000/
+})
 
-export default instance;
+export default instance
 
 // instance.get('/hi').then((data) => console.log(data));
